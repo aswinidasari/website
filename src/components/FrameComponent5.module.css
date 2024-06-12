@@ -1,0 +1,192 @@
+.logo131Icon {
+  width: 42px;
+  height: 29px;
+  position: relative;
+  object-fit: cover;
+}
+.logo131Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+}
+.doc,
+.semiHyphen {
+  text-decoration: none;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+}
+.semiHyphen {
+  white-space: nowrap;
+}
+.doc {
+  height: 26px;
+  display: inline-block;
+}
+.docWrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  color: var(--greytext);
+}
+.docParent,
+.docWrapper,
+.semiHyphenParent {
+  display: flex;
+  align-items: flex-start;
+}
+.semiHyphenParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.docParent {
+  width: 230px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+}
+.mingcutearrowLeftUpLineIcon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.mingcutearrowLeftUpLineWrapper {
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 0 0;
+  box-sizing: border-box;
+}
+.waitlist {
+  text-decoration: none;
+  height: 26px;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+}
+.waitlistWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-8xs) 0 0;
+  color: var(--greytext);
+}
+.mingcutearrowLeftUpLineIcon1 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.mingcutearrowLeftUpLineContainer {
+  width: 698px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameChild {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  object-fit: contain;
+}
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-mini) 0 0;
+}
+.frameItem {
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
+.frameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-11xl) 0 0;
+}
+.launchApp {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  font-family: var(--font-sarabun);
+  color: var(--color-gray-100);
+  text-align: left;
+}
+.frameParent,
+.homePageInner,
+.launchAppWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.launchAppWrapper {
+  cursor: pointer;
+  border: 1px solid var(--border-lines);
+  padding: var(--padding-9xs) var(--padding-sm);
+  background-color: var(--sub-primary);
+  box-shadow: var(--button-effect);
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+  white-space: nowrap;
+}
+.launchAppWrapper:hover {
+  background-color: var(--color-darkcyan);
+  border: 1px solid var(--color-slategray);
+  box-sizing: border-box;
+}
+.frameParent,
+.homePageInner {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  background: linear-gradient(180deg, #040404, rgba(4, 4, 4, 0.8));
+  overflow: hidden;
+  padding: var(--padding-xl) var(--padding-41xl) var(--padding-2xl);
+}
+.homePageInner {
+  align-self: stretch;
+  padding: 0 0 var(--padding-3xs);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--primary-colour);
+  font-family: var(--font-sarabun);
+}
+@media screen and (max-width: 1400px) {
+  .semiHyphenParent {
+    display: none;
+  }
+  .docParent {
+    width: 5px;
+  }
+  .frameParent {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
